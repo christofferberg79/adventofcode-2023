@@ -6,12 +6,11 @@ import kotlin.test.assertEquals
 
 class Test {
     @Test
-    @Ignore
     fun day1() {
-        assertEquals(0, Day1(Input("day1_ex1")).part1())
-        assertEquals(0, Day1(Input("day1")).part1())
-        assertEquals(0, Day1(Input("day1_ex1")).part2())
-        assertEquals(0, Day1(Input("day1")).part2())
+        assertEquals(142, Day1(Input("day1_ex1")).part1())
+        assertEquals(55971, Day1(Input("day1")).part1())
+        assertEquals(281, Day1(Input("day1_ex2")).part2())
+        assertEquals(54719, Day1(Input("day1")).part2())
     }
 
     @Test
