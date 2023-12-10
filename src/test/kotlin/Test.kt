@@ -79,12 +79,12 @@ class Test {
     }
 
     @Test
-    @Ignore
     fun day10() {
-        assertEquals(0, Day10(Input("day10_ex1")).part1())
-        assertEquals(0, Day10(Input("day10")).part1())
-        assertEquals(0, Day10(Input("day10_ex1")).part2())
-        assertEquals(0, Day10(Input("day10")).part2())
+        assertEquals(8, Day10(Input("day10_ex1")).part1())
+        assertEquals(6842, Day10(Input("day10")).part1())
+        assertEquals(8, Day10(Input("day10_ex2")).part2())
+        assertEquals(10, Day10(Input("day10_ex3")).part2())
+        assertEquals(393, Day10(Input("day10")).part2())
     }
 
     @Test
