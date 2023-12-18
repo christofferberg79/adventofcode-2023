@@ -137,12 +137,11 @@ class Test {
     }
 
     @Test
-    @Ignore
     fun day17() {
-        assertEquals(0, Day17(Input("day17_ex1")).part1())
-        assertEquals(0, Day17(Input("day17")).part1())
-        assertEquals(0, Day17(Input("day17_ex1")).part2())
-        assertEquals(0, Day17(Input("day17")).part2())
+        assertEquals(102, Day17(Input("day17_ex1")).part1())
+        assertEquals(936, Day17(Input("day17")).part1())
+        assertEquals(94, Day17(Input("day17_ex1")).part2())
+//        assertEquals(0, Day17(Input("day17")).part2())         Out of Memory!
     }
 
     @Test
